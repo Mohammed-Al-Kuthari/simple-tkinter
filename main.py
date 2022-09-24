@@ -40,7 +40,7 @@ def create_input_frame(container, patients=patients):
     age.grid(column=1, row=1, sticky=tk.W)
 
     # Date
-    ttk.Label(frame, text='Enter age:').grid(column=0, row=2, sticky=tk.W)
+    ttk.Label(frame, text='Enter date:').grid(column=0, row=2, sticky=tk.W)
     date = ttk.Entry(frame, width=30)
     date.grid(column=1, row=2, sticky=tk.W)
 
